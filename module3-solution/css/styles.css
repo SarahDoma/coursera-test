@@ -1,35 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
 }
 
-#header-nav {
-  background-color: #999999;
+nav.navbar.navbar-default{
+    background-color: #999999;
   border-radius: 0;
   border: 0;
   border: 2px solid black;
 }
 
-#collapsable-nav{
-  font-size: 1.3em;
-  font-weight: 600;
-}
-
-.navbar{
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-}
-
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+span.icon-bar{
   border: 2px solid black;
 }
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}
 
-.navbar-brand {
-  padding-top: 25px;
+button.navbar-toggle.collapsed{
+  border: 2px solid black;
+  margin-top: 15px;
 }
 
 .navbar-brand h1 {
@@ -37,17 +28,9 @@ body {
   color: #000;
   font-size: 1.5em;
   font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: ;
-}
-
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-}
-
-.navbar-default .navbar-collapse{
-  border: none;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  line-height: .75;
 }
 
 #nav-list {
@@ -58,6 +41,7 @@ body {
 #nav-list a {
   color: #000;
   background: #fff;
+  font-size: 1.3em;
   text-align: center;
   border: 2px solid black;
 }
@@ -65,8 +49,9 @@ body {
   background: #999999;
 }
 
+}
 #heading{
-/*margin: 40px auto;*/
+  margin-top: 40px;
 }
 
 #chicken, #beef, #sushi{
@@ -74,6 +59,7 @@ body {
   padding: 0px 20px 5px 20px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: auto;
 }
 
 .category-title{
